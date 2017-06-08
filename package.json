@@ -6,8 +6,6 @@
     "start": "elf start",
     "build": "elf build"
   },
-  "devDependencies": {
-  },
   "dependencies": {
     "swiper": "3.4.0",
     "zepto": "1.2.0",

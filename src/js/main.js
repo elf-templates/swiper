@@ -1,19 +1,19 @@
 require('src/index.html')
-require('src/css/main.scss')
+require('src/css/package.scss')
 
 require('swiper/dist/css/swiper.css')
 require('swiper/dist/js/swiper.js')
+
 var Preloader = require('preloader.js')
 
 /**
  * init
  */
-function init() {
+function init () {
   var mySwiper = new Swiper('#o2_swiper', {
     direction: 'vertical'
   })
 }
-
 
 /**
  * preloader && start

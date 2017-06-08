@@ -1,14 +1,17 @@
-@charset "UTF-8";
-@import "./base.css";
-@import "./mixin.scss";
-@import "./loading.scss";
+/**
+ * Main Page
+ */
+.main {
+  width: 100%;
+  height: 100%;
+}
 .swiper-container {
   width: 100%;
   height: 100%;
 }
-
 .swiper-slide {
   background-color: #e3e3e3;
+
   &:nth-child(1) {
     background-color: #f16529;
   }
@@ -22,14 +25,15 @@
     background-color: #509001;
   }
   .title {
-    color: #FFF;
     height: 400px;
-    line-height: 400px;
+    color: #FFF;
     font-size: 48px;
+    line-height: 400px;
     text-align: center;
   }
   .logo {
     text-align: center;
+
     img {
       width: 512px;
       height: 512px;
